@@ -1,0 +1,17 @@
+{
+  "name": "BBD",
+  "short_name": "BBD",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2C3E6B",
+  "icons": [
+    {
+      "src": "BBD Mark.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
