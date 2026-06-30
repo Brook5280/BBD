@@ -26,24 +26,56 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "ProfessionalService",
-    "name": "BBD",
-    "url": "https://bbdworks.com/",
-    "image": "https://bbdworks.com/BBD%20Mark.png",
-    "logo": "https://bbdworks.com/BBD%20Mark.png",
-    "description": "BBD helps growing teams get unstuck with operations, systems, and cross-functional support.",
-    "areaServed": "United States",
-    "knowsAbout": [
-      "Operations consulting",
-      "Fractional COO services",
-      "Systems and process improvement",
-      "Cross-functional team alignment",
-      "AI for small businesses"
-    ],
-    "founder": {
-      "@type": "Person",
-      "name": "Brook Bissinger Davis"
-    }
+    "@graph": [
+      {
+        "@type": "ProfessionalService",
+        "@id": "https://bbdworks.com/#bbd",
+        "name": "BBD",
+        "url": "https://bbdworks.com/",
+        "image": "https://bbdworks.com/BBD%20Mark.png",
+        "logo": "https://bbdworks.com/BBD%20Mark.png",
+        "description": "BBD helps growing teams get unstuck with operations, systems, and cross-functional support.",
+        "areaServed": "United States",
+        "knowsAbout": [
+          "Operations consulting",
+          "AI for small businesses",
+          "Cross-functional operations",
+          "Systems and process improvement"
+        ],
+        "founder": {
+          "@id": "https://bbdworks.com/#brook"
+        }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://bbdworks.com/#brook",
+        "name": "Brook Bissinger Davis",
+        "url": "https://bbdworks.com/",
+        "jobTitle": "Operations & AI Advisor",
+        "description": "Brook Bissinger Davis is an operations and AI advisor based in New Orleans.",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "New Orleans",
+          "addressRegion": "LA",
+          "addressCountry": "US"
+        },
+        "knowsAbout": [
+          "Operations consulting",
+          "AI for small businesses",
+          "Cross-functional operations",
+          "Systems and process improvement"
+        ]
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://bbdworks.com/#workintech",
+        "name": "Work In Tech",
+        "sameAs": "https://www.linkedin.com/company/workintechnola/",
+        "founder": {
+          "@id": "https://bbdworks.com/#brook"
+        }
+      }
+    ]
   }
   </script>
 </head>
